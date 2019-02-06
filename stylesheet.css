@@ -1,56 +1,85 @@
 
-
-#header {
-color: orange;  
-text-align: center; 
-margin-top: 30px;  
-padding-top 10px;  
-padding-bottom: 10px;    
+#welcome-section{
+  margin: 0;
+  padding: 0;
+ height: 100vh; 
 }
+
+nav {
+ margin-left: -40px;
+ margin-right: 40px; 
+  margin-top: -35px; 
+}
+
+
 
 #navbar {
-position: fixed;
-background-color: grey; 
-  border-right:solid;
-  border-color: black;
- width:210px;
-  height:100%;  
-min-width:200px;
- left:0px;  
-  top:0px;
-
-}
   
-p {
-color: blue;  
-text-align: center;
-margin-left: 110px;
-padding-bottom: 45px;  
+  overflow: hidden;
+  background-color: #beb750;
+    position: fixed; 
+  width: 100%;
+
 }
 
+#navbar li {
+list-style-type: none;
+font-size: 25px;  
+}
 
 #navbar a {
-position: fixed;  
-color: green;  
+  float: left;
+  display: block;
+  color: #00843D;
+  font-weight: bold;
+  padding: 14px;
+  text-decoration: none;
+  
+  }
+
+
+
+h1 {
+text-align: center;
+    min-height: 55vh;
+  padding-top: 45vh;
 }
 
-a:hover { 
-   background-color: yellow;  
+  #box-1 {
+    background-color: #005DAC;
+    height: 100vh;
+    width: auto;
+      overflow: hidden;
+padding: 10px 10px 10px 15px; 
+  margin: 0;
+  padding: 0;
+  }
+
+#box-1 h4 {
+font-size: 40px;
+text-align: center;
+font-family: georgia;
+ margin-top: 90px;   
 }
 
-
-header {
-font-size: 20px;
-font-family: georgia; 
+#box-2 {
+    background-color: #444337;
+    height: 50vh;
+    width: 100%;
+margin: 50px 0px 20px 0px;
 }
 
-body {
-background-color: #ffffff;  
+#box-2 h3 {
+  color: black;  
+text-align: center;
+padding: 50px;
+font-size: 40px;
 }
+
 
 @media screen and (max-width: 992px) {
   body {
-    background-color: #59707A;
+    background-color: orange;
   }
 }
 
@@ -60,7 +89,36 @@ background-color: #ffffff;
   }
 }
 
-.main-section {
-text-align: center;  
+
+#footer
+
+{
+  
+padding: 55px 10px -100px; 
+margin-top: 60px;  
+margin-bottom: -150px;  
+background-color: #24b981;
+text-align: left;
+   position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+   
+}
+
+#footer p
+{
+ color: black;  
+ font-weight: bold; 
+margin-left: 15px;
+margin-top: -25px;  
+  
+}
+
+#footer a {
+color: black;  
+ font-weight: bold; 
+margin-left: 15px;
+font-size: 20px; 
 }
 
